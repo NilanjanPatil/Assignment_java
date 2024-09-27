@@ -1,0 +1,23 @@
+package Assignment26;
+
+public class DoorAccessControl {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		boolean validId=true;
+		boolean validAccessCard=false;
+		boolean isAdmin=true;
+		if((validId && validAccessCard) || isAdmin)
+			
+		{
+			System.out.println("access granted");
+			
+		}
+		else
+		{
+			System.out.println("access denied");
+		}
+
+	}
+
+}
