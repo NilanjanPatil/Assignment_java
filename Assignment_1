@@ -1,0 +1,20 @@
+package Assignment26;
+
+public class ValiAgeInc {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       int age=25;
+       int income=30000;
+       if(age>=18 && age<=60 && income<25000)
+       {
+    	   System.out.println("A person is eligible for loan");
+       }
+       else
+       {
+    	   System.out.println("A person is not eligible for loan");
+       }
+    	   
+	}
+
+}
